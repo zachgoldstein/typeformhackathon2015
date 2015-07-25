@@ -1,27 +1,19 @@
 # Zach Goldstein
-### Freelance golang/ruby/node engineer
+### Freelance software engineer
+## golang/ruby/node
+### Code Gypsy
 
 ---
 
 
-# Slack + Typeform + Go
+# Slack + Typeform + Go + Firebase + Reactjs
 ### An Obyssey
 
 ![](./imgs/tumblr_mtcnbxpr2A1qdkeiao5_r1_1280.jpg)
 
 ---
 
-## Build a slack bot that can create user-tagged forms with typeform!
-
----
-
-## Interact with the typeform API in golang
-### Build out the basics of a wrapper lib
-
----
-
-### Wrapper Lib!
-
+## Build a slack bot that can create custom user-specific forms with typeform!
 
 ---
 
@@ -29,11 +21,11 @@
 
 ---
 
-## Somebody posts a message telling typebot to do something
+## Somebody posts a message telling typebot to create a form
 
 ---
 
-## Typebot creates tagged forms for everybody and DM's them a link
+## Typebot creates forms with custom webhooks for everybody and DMs them a link
 
 ---
 

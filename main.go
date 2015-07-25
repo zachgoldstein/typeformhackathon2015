@@ -17,7 +17,7 @@ import (
 
 func main(){
 
-	api := slack.New("xoxb-8194552449-GU4fHYqiPlcVEC9gLcNgwv2a")
+	api := slack.New("INSERT TOKEN")
 	api.SetDebug(false)
 
 	http.HandleFunc("/webhook", func(w http.ResponseWriter, r *http.Request) {
@@ -243,7 +243,7 @@ func createFormForUser(message *slack.MessageEvent, userId string) FormSubmissio
 		fmt.Println("Could not build new request ",err)
 	}
 
-	req.Header.Add("x-api-token", "8effac447a26ff118ddcea4335db9a3e")
+	req.Header.Add("x-api-token", "INSERT TOKEN")
 
 	res, err := http.DefaultClient.Do(req)
 	if (err != nil) {
@@ -355,7 +355,7 @@ func storeVotedPersonInFirebase(user *slack.User) {
 	url := "https://typeformhackathon.firebaseio.com/votedUsers"
 
 	// Can also be your Firebase secret:
-	authToken := "67LoKprWLZvah2E6HxscXsMDh10y9SbuAxvi1wCd"
+	authToken := "INSERT TOKEN HERE"
 
 	// Auth is optional:
 	ref := firebase.NewReference(url).Auth(authToken)
@@ -374,7 +374,7 @@ func storeResultInFirebase(results FormResults) {
 	url := "https://typeformhackathon.firebaseio.com/answers"
 
 	// Can also be your Firebase secret:
-	authToken := "67LoKprWLZvah2E6HxscXsMDh10y9SbuAxvi1wCd"
+	authToken := "INSERT TOKEN HERE"
 
 	// Auth is optional:
 	ref := firebase.NewReference(url).Auth(authToken)
@@ -446,7 +446,7 @@ func storeResultInFirebase(results FormResults) {
       }
    ],
    "id":"S65RosIui4nvig",
-   "token":"8ed184766f516a5885e95f526182415b"
+   "token":"BLAHBLAH"
 }
 
 */
